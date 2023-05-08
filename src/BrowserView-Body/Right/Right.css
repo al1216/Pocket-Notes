@@ -1,0 +1,171 @@
+.right {
+    height: 100vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.up-imageAndCaptions {
+    display: flex;
+    flex-direction: column;
+}
+
+.persons-right {
+    width: 62.6rem;
+    height: 31.3rem;
+}
+
+.heading-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5.0rem;
+    line-height: 5.9rem;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.right-captions {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.1rem;
+    line-height: 3.2rem;
+    letter-spacing: 0.02em;
+    color: #292929;
+}
+
+.encrypted-text-icon {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+}
+
+.lock {
+    width: 1.7rem;
+    height: 2.1rem;
+}
+
+.encrypt-caption {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3.2rem;
+    letter-spacing: 0.02em;
+    color: #292929;
+}
+
+.message-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    box-sizing: content-box;
+    display: flex;
+    gap: 2rem;
+    background-color: #E8E8E8;
+    padding: 1.5rem;
+    position: fixed;
+    top: 0.65rem;
+    width: 70vw;
+    left: 44.7rem;
+}
+
+.dateAndTime {
+    display: flex;
+    flex-direction: column;
+    word-wrap: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.86345rem;
+    line-height: 97.69%;
+    letter-spacing: 0.02em;
+    color: #353535;
+    white-space: nowrap;
+}
+
+.wrapper-message {
+    overflow-y: scroll;
+}
+
+.messages {
+    display: flex;
+    gap: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    align-items: center;
+    justify-content: center;
+    overflow-y: scroll;
+}
+
+.msg {
+    word-wrap: break-word;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 160.19%;
+    letter-spacing: 0.035em;
+    color: #000000;
+
+}
+
+.send-dm {
+    box-sizing: content-box;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 44.7rem;
+    width: 100rem;
+    height: 20rem;
+    background-color: #E8E8E8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-text-area {
+    width: 80rem;
+    height: 15rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    letter-spacing: 0.02em;
+    color: #9A9A9A;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    resize: none
+}
+
+.send-icon{
+    width: 3.4rem;
+    height: 2.9rem;
+    position: fixed;
+    bottom: 3.5rem;
+    right: 10rem;
+    z-index: 1;
+    cursor: pointer;
+
+}
